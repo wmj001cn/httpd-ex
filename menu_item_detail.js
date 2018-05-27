@@ -1,0 +1,529 @@
+﻿var defaultk = [{
+    url: "6ed5wecb3",
+    desc: "珠江纯生啤酒",
+    sku: "A055",
+    price: 8,
+    qty: 0
+}, {
+    url: "vx5i9egfj",
+    desc: "哈尔滨啤酒",
+    sku: "A056",
+    price: 8,
+    qty: 0
+}, {
+    url: "cfautgr7j",
+    desc: "嘉士伯啤酒",
+    sku: "A057",
+    price: 10,
+    qty: 0
+}, {
+    url: "wzforxrj3",
+    desc: "百威啤酒",
+    sku: "A058",
+    price: 9,
+    qty: 0
+}],
+gd = [{
+        url: "640lg349r",
+        desc: "炒田螺",
+        sku: "A001",
+        price: 15,
+        qty: 0
+    },
+    {
+        sku: '75b84c92',
+        url: '75b84c92',
+        desc: '大口螺',
+        price: 25,
+        unit: '份',
+        qty: 0
+    }, {
+        url: "s3703astr",
+        desc: "烧烤飞机排骨",
+        sku: "A003",
+        price: 7,
+        qty: 0
+    }, {
+        sku: '3d4eac69',
+        url: '3d4eac69',
+        desc: '一打炭烧生蚝',
+        price: 60,
+        unit: '份',
+        qty: 0
+    }, {
+        sku: '42a57993',
+        url: '42a57993',
+        desc: '活动价半打生蚝',
+        price: 30,
+        unit: '份',
+        qty: 0
+    },
+
+    {
+        sku: '6bc7c054',
+        url: '6bc7c054',
+        desc: '烤鱼罗非活动',
+        price: 90,
+        unit: '份',
+        qty: 0
+    }, {
+        sku: '232204a1',
+        url: '232204a1',
+        desc: '烤鱼鲩鱼活动价',
+        price: 90,
+        unit: '份',
+        qty: 0
+    }
+],
+marine = [{
+    url: "75b84c92",
+    desc: "大口螺",
+    sku: "A034",
+    price: 25,
+    qty: 0
+}, {
+    url: "640lg349r",
+    desc: "炒田螺",
+    sku: "A035",
+    price: 15,
+    qty: 0
+}, {
+    url: "3d4eac69",
+    desc: "炭烧生蚝（一打）",
+    sku: "A068",
+    price: 60,
+    qty: 0
+}, {
+    url: "42a57993",
+    desc: "半打生蚝(活动)",
+    sku: "A069",
+    price: 30,
+    qty: 0
+}, {
+    url: "6bc7c054",
+    desc: "烤全罗非鱼(活动)",
+    sku: "A070",
+    price: 90,
+    qty: 0
+}, {
+    sku: '232204a1',
+    url: '232204a1',
+    desc: '烤鱼鲩鱼活动价',
+    price: 90,
+    unit: '份',
+    qty: 0
+}, {
+    url: "0418ksb01",
+    desc: "烤扇贝（半打）",
+    sku: "A073",
+    price: 20,
+    qty: 0
+}, {
+    url: "0418ksb01",
+    desc: "烤扇贝（一打）",
+    sku: "A072",
+    price: 40,
+    qty: 0
+}, {
+    url: "5fj0okplb",
+    desc: "烤青口（半打）",
+    sku: "A039",
+    price: 18,
+    qty: 0
+}, {
+    url: "5fj0okplb",
+    desc: "烤青口（一打）",
+    sku: "A039",
+    price: 35,
+    qty: 0
+}, {
+    url: "w0ljk44tb",
+    desc: "丰味龙虱",
+    sku: "A040",
+    price: 30,
+    qty: 0
+}, {
+    url: "z7g33r4ov",
+    desc: "烤多味鱼",
+    sku: "A041",
+    price: 5,
+    qty: 0
+}, {
+    url: "89m621ucf",
+    desc: "烤多春鱼（半打）",
+    sku: "A042",
+    price: 8,
+    qty: 0
+}, {
+    url: "89m621ucf",
+    desc: "烤多春鱼（一打）",
+    sku: "A042",
+    price: 15,
+    qty: 0
+}, {
+    url: "9onqqrnpr",
+    desc: "烤大鱿鱼",
+    sku: "A043",
+    price: 25,
+    qty: 0
+}, {
+    url: "vnu5dywu7",
+    desc: "烤干鱿鱼",
+    sku: "A044",
+    price: 8,
+    qty: 0
+}, {
+    url: "bt83ru273",
+    desc: "烤白仓鱼",
+    sku: "A045",
+    price: 10,
+    qty: 0
+}, {
+    url: "f02nbi4nj",
+    desc: "烤秋刀鱼",
+    sku: "A046",
+    price: 7,
+    qty: 0
+}, {
+    url: "r1y15ntbj",
+    desc: "烤鱼丸串",
+    sku: "A047",
+    price: 5,
+    qty: 0
+}, {
+    url: "8z4yefpr3",
+    desc: "烤鱼板",
+    sku: "A048",
+    price: 5,
+    qty: 0
+}, {
+    url: "sgzlud79b",
+    desc: "烤鱿鱼须",
+    sku: "A050",
+    price: 6,
+    qty: 0
+}],
+meat = [{
+    url: "s3703astr",
+    desc: "飞机排",
+    sku: "A008",
+    price: 7,
+    qty: 0
+}, {
+    url: "r1y15syi7",
+    desc: "烤火腿肠仔",
+    sku: "A009",
+    price: 4,
+    qty: 0
+}, {
+    sku: '1540e19d',
+    url: '1540e19d',
+    desc: '骨肉相连',
+    price: 5,
+    unit: '份',
+    qty: 0
+}, {
+    url: "tj9sd35jz",
+    desc: "烤鸡中翅",
+    sku: "A012",
+    price: 6,
+    qty: 0
+}, {
+    url: "x2vq2vsu7",
+    desc: "烤全鸡翅",
+    sku: "A013",
+    price: 6,
+    qty: 0
+}, {
+    url: "0418jyj01",
+    desc: "鸡翅尖",
+    sku: "A014",
+    price: 25,
+    qty: 0
+}, {
+    url: "5saeuzksf",
+    desc: "烤鸡肾串",
+    sku: "A015",
+    price: 5,
+    qty: 0
+}, {
+    url: "qp6mzmvnz",
+    desc: "烤鸡脚串",
+    sku: "A016",
+    price: 6,
+    qty: 0
+}, {
+    url: "pznunaajz",
+    desc: "烤鸡全腿",
+    sku: "A017",
+    price: 6,
+    qty: 0
+}, {
+    url: "5b9nwjfv5",
+    desc: "烧烤黑椒肠",
+    sku: "A017",
+    price: 5,
+    qty: 0
+}],
+liquid = [{
+        url: "n4bc9sf17",
+        desc: "1664啤酒",
+        sku: "A001",
+        price: 20,
+        qty: 0
+    }, {
+        url: "6ed5wecb3",
+        desc: "珠江纯生啤酒",
+        sku: "A002",
+        price: 8,
+        qty: 0
+    }, {
+        url: "vx5i9egfj",
+        desc: "哈尔滨啤酒",
+        sku: "A003",
+        price: 8,
+        qty: 0
+    }, {
+        url: "cfautgr7j",
+        desc: "嘉士伯啤酒",
+        sku: "A004",
+        price: 10,
+        qty: 0
+    }, {
+        url: "t32cvxytr",
+        desc: "生力清啤（旧款）",
+        sku: "A005",
+        price: 9,
+        qty: 0
+    }, {
+        url: "qlqlophi7",
+        desc: "生力清啤酒",
+        sku: "A006",
+        price: 8,
+        qty: 0
+    },
+
+    {
+        url: "wzforxrj3",
+        desc: "百威啤酒",
+        sku: "A090",
+        price: 9,
+        qty: 0
+    },
+
+    {
+        url: "g4rs61qbl",
+        desc: "芙蓉王",
+        sku: "A101",
+        price: 30,
+        qty: 0
+    },
+    {
+        sku: '55f96302',
+        url: '55f96302',
+        desc: '1906香烟',
+        price: 20,
+        unit: '包',
+        qty: 0
+    },
+    {
+        sku: '1b6d3586',
+        url: '1b6d3586',
+        desc: '硬盒经典红双喜',
+        price: 15,
+        unit: '包',
+        qty: 0
+    },
+
+],
+vegi = [{
+    url: "mxx2dkacf",
+    desc: "烤冬菇",
+    sku: "A018",
+    price: 5,
+    qty: 0
+}, {
+    url: "0418sg01",
+    desc: "锡纸水瓜",
+    sku: "A019",
+    price: 20,
+    qty: 0
+}, {
+    sku: '4aa298b7',
+    url: '4aa298b7',
+    desc: '烧玉米',
+    price: 7,
+    unit: '个',
+    qty: 0
+}, {
+    url: "xkqviy0hb",
+    desc: "烤白菇",
+    sku: "A021",
+    price: 5,
+    qty: 0
+}, {
+    url: "l643ioe4v",
+    desc: "烤秋葵",
+    sku: "A022",
+    price: 5,
+    qty: 0
+}, {
+    url: "0418qk01",
+    desc: "白灼秋葵",
+    sku: "A022",
+    price: 20,
+    qty: 0
+}, {
+    url: "e2w832gf3",
+    desc: "烤粟子",
+    sku: "A023",
+    price: 15,
+    qty: 0
+}, {
+    url: "ml5o7cphr",
+    desc: "烤芥兰",
+    sku: "A024",
+    price: 5,
+    qty: 0
+}, {
+    url: "4iclg592n",
+    desc: "烤茄瓜",
+    sku: "A025",
+    price: 7,
+    qty: 0
+}, {
+    url: "m8ea18k3j",
+    desc: "烤娃娃菜",
+    sku: "A026",
+    price: 3,
+    qty: 0
+}, {
+    url: "blkgvqrcv",
+    desc: "烤豆腐皮",
+    sku: "A027",
+    price: 4,
+    qty: 0
+}, {
+    url: "jeb4nqs73",
+    desc: "烤豆角仔",
+    sku: "A028",
+    price: 5,
+    qty: 0
+}, {
+    url: "5xe64vplb",
+    desc: "烤辣椒",
+    sku: "A029",
+    price: 4,
+    qty: 0
+}, {
+    url: "ktcpcgdun",
+    desc: "烤金针菇",
+    sku: "A030",
+    price: 3,
+    qty: 0
+}, {
+    url: "dddfqpnlb",
+    desc: "烤韭菜",
+    sku: "A031",
+    price: 3,
+    qty: 0
+}, {
+    sku: '4554617c',
+    url: '4554617c',
+    desc: '烤蒜芯',
+    price: 3,
+    unit: '份',
+    qty: 0
+}, {
+    url: "xv6bhdbnf",
+    desc: "烤韭黄",
+    sku: "A091",
+    price: 3,
+    qty: 0
+}, {
+    sku: '28d93b30',
+    url: '28d93b30',
+    desc: '白灼乌胶半打',
+    price: 13,
+    unit: '份',
+    qty: 0
+}, {
+    sku: '7d4991ad',
+    url: '7d4991ad',
+    desc: '白灼乌胶一打',
+    price: 25,
+    unit: '份',
+    qty: 0
+}, {
+    sku: '74a14482',
+    url: '74a14482',
+    desc: '通心菜',
+    price: 3,
+    unit: '份',
+    qty: 0
+}],
+drink = [{
+    url: "mwv1z67mj",
+    desc: "可口可乐（小）",
+    sku: "B001",
+    price: 5,
+    qty: 0
+}, {
+    url: "56tde4mbv",
+    desc: "可口可乐（大）",
+    sku: "B002",
+    price: 10,
+    qty: 0
+}, {
+    url: "9sphmiafv",
+    desc: "怡宝",
+    sku: "B003",
+    price: 3,
+    qty: 0
+}, {
+    url: "wu62s9piz",
+    desc: "椰子汁",
+    sku: "B004",
+    price: 5,
+    qty: 0
+}, {
+    url: "vf4i3jgq3",
+    desc: "沙示",
+    sku: "B005",
+    price: 10,
+    qty: 0
+}, {
+    url: "jd949ds23",
+    desc: "王老吉（小）",
+    sku: "B006",
+    price: 5,
+    qty: 0
+}, {
+    url: "eelluugjf",
+    desc: "王老吉（大）",
+    sku: "B007",
+    price: 15,
+    qty: 0
+}, {
+    url: "hk67lmjwb",
+    desc: "菊花蜜",
+    sku: "B008",
+    price: 10,
+    qty: 0
+}, {
+    url: "6ymc91l4b",
+    desc: "雪碧",
+    sku: "B009",
+    price: 10,
+    qty: 0
+}],
+myall = {
+    default: defaultk = gd.concat(defaultk),
+    gd: gd,
+    marine: marine,
+    meat: meat,
+    vegi: vegi,
+    liquid: liquid,
+    drink: drink
+},
+merchantCode = "fwsk";
